@@ -1,0 +1,93 @@
+html,body{
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     justify-content: center;
+     background:url(cropped-Fotolia_119561214_Subscription_Yearly_XXL_PLUS-2-2000x1014.jpg) center bottom;
+     background-size: cover;
+     color:#fff;
+}
+
+.pic{
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    margin-left: 40%;
+    display: flex;
+}
+.info h1{
+    font-size: 30px;
+    display: inline-block;
+    font-family: monospace;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 30%;
+    
+}
+.info h1::after{
+    height: 3px;
+    width: 200px;
+    background-color: #fff;
+   
+    margin-left: 30%;
+    bottom: -2px;
+    text-align: center;
+}
+
+.intro{
+    margin-left: 29.5%;
+    text-align: justify;
+    padding: 1rem 10px 1.5rem;
+    max-width: 500px;
+    line-height: 1.5;
+    font-family: monospace;
+    font-size: 15px;
+    color: #f1f5ff;
+}
+.contact{
+    display: inline-block;
+    background-color: #fff;
+    padding: 8px 2rem;
+    text-decoration:none;
+    color: #4a5568;
+    border-radius: 99rem;
+    border: 2px solid#fff;
+    transition: .25s ease;
+    margin-left: 40%;
+}
+.contact:hover{
+    background-color: transparent;
+    color: #fff;
+}
+.link{
+    margin-left: 30%;
+    margin-top: 1rem;
+    list-style: none;
+}
+.link li{
+    margin-left: 5%;
+    display: inline-block;
+    width: 5%;
+    padding: .5px;
+}
+.gi{
+       width: 65%;
+       margin-left: 20%;
+}
+.in{
+width: 100%;
+
+}
+.lk{
+    width: 80%;
+}
+.ma{
+    width: 70%;
+}
